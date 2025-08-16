@@ -421,7 +421,7 @@ def main():
     """
     st.set_page_config(page_title=APP_TITLE, page_icon="🗨️", layout="centered")
     st.title("🗨️ My Social Feed")
-    st.caption("Streamlit + CSV로 만드는 미니 SNS")
+    st.caption("테스트용 유사 SNS")
 
     # 필수 CSV 파일 생성 보장
     bootstrap_data_files()
