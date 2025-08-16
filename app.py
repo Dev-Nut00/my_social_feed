@@ -158,7 +158,7 @@ def create_user(username: str, password: str) -> tuple[bool, str]:
         return False, "이미 존재하는 사용자명입니다."
     user = {
         "user_id": uuid.uuid4().hex,
-        "user_password": password,   # ⚠ 교육용 평문 저장
+        "user_password": password,   
         "username": username,
         "username_lc": username.lower(),
         "created_at": now_iso(),
@@ -718,7 +718,7 @@ def main():
     """앱 엔트리 포인트"""
     st.set_page_config(page_title=APP_TITLE, page_icon="🗨️", layout="centered")
     st.title("🗨️ My Social Feed")
-    st.caption("Streamlit + CSV — Full build (Stage 1 + Stage 2 + Utilities)")
+    st.caption("연습용 SNS개발")
 
     bootstrap_data_files()
 
