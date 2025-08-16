@@ -1,2 +1,4 @@
-user_id,user_password,username,username_lc,created_at
-0884d491865746b6a8f901098b9b184b,123,123,123,2025-08-17T02:08:35
+user_id,user_password,username,username_lc,created_at,bio,avatar_url,is_admin
+27ba03f78f43400b97f92cf632b24436,admin,admin,admin,2025-08-17T02:59:39,,,True
+2c54f092862f499483c0187c19d4b206,1234,1234,1234,2025-08-17T03:08:40,,,False
+99f317cde1f145c5bb9bbdde6c6dc870,qwer,qwer,qwer,2025-08-17T03:09:27,,,False
