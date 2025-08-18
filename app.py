@@ -718,7 +718,7 @@ def main():
     """앱 엔트리 포인트"""
     st.set_page_config(page_title=APP_TITLE, page_icon="🗨️", layout="centered")
     st.title("🗨️ with us")
-    st.caption("SNS 피드 앱")
+    st.caption("SNS형식의 대회/스터디 구인서비스")
 
     bootstrap_data_files()
 
