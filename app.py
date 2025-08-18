@@ -717,8 +717,8 @@ def sidebar(current_user: dict | None):
 def main():
     """앱 엔트리 포인트"""
     st.set_page_config(page_title=APP_TITLE, page_icon="🗨️", layout="centered")
-    st.title("🗨️ My Social Feed")
-    st.caption("연습용 SNS개발")
+    st.title("🗨️ code with")
+    st.caption("동료 모집 사이트")
 
     bootstrap_data_files()
 
